@@ -1,0 +1,2 @@
+- http://localhost:8888/config-server-client/development
+- http://localhost:8888/config-server-client/production

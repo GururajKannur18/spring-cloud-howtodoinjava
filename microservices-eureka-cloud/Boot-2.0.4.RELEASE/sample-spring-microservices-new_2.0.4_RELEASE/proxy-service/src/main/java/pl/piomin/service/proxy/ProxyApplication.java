@@ -1,3 +1,4 @@
+
 package pl.piomin.service.proxy;
 
 import org.springframework.boot.SpringApplication;

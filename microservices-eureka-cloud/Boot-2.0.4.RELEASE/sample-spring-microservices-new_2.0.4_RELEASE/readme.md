@@ -15,7 +15,8 @@ https://piotrminkowski.wordpress.com/2018/04/26/quick-guide-to-microservices-wit
 http://localhost:8761/
 
 # Swagger
-http://localhost:8060/employee/v2/api-docs
+- http://localhost:8060/employee/v2/api-docs
+- http://localhost:8060/swagger-ui.html#/
 
 # Department Service
 http://localhost:8091/1

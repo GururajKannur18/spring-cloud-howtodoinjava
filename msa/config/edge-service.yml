@@ -1,0 +1,13 @@
+server:
+  port: 8080
+zuul:
+  prefix: /api
+  routes:
+    product-service:
+        path: /products/**
+        service-id: product-service
+        strip-prefix: false
+    rating-service:
+        path: /ratings/**
+        service-id: rating-service
+        strip-prefix: false

@@ -1,0 +1,17 @@
+spring:
+    database:
+        driverClassName: com.mysql.jdbc.Driver
+        #driverClassName: org.postgresql.Driver
+    datasource:
+        password: root
+        platform: mysql
+        username: root
+        url: jdbc:mysql://localhost:${DB_PORT:3306}/meetup?currentSchema=msa
+        #url: jdbc:postgresql://localhost:${DB_PORT:5432}/meetup?currentSchema=msa
+    jpa:
+        database: MYSQL
+        #database: POSTGRESQL
+        show-sql: true
+        generate-ddl: true
+        hibernate:
+          ddl-auto: none
